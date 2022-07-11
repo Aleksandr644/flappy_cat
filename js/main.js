@@ -22,6 +22,7 @@ score_sound.src = "sound/score.mp3";
 let gap = 150;
 
 document.addEventListener("keydown", moveUp);
+document.addEventListener("touchstart", moveUp);
 
 function moveUp(){
     yPos -= 20;
